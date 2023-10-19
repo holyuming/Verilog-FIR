@@ -1,12 +1,12 @@
 <!-- title: NYCU 2023 SoC-lab: FIR verilog RTL-simulation -->
 NYCU 2023 SoC-lab: FIR verilog RTL-simulation
 ===
-### This lab is the implementation of finite impulse response with n = 11. With only ***==1 Multiplier and 1 Adder==***, and ***==2 bram with 11 entry each==***. 
+### This lab is the implementation of finite impulse response with n = 11. With only ***1 Multiplier and 1 Adder***, and ***2 bram with 11 entry each***. 
 <br>
 
 Folder hierarchy:
 ---
-put the following files in the same director, nad make sure you have simulator to run verilog code.
+put the following files in the same director, and make sure you have simulator to run your verilog codes.
 - ***fir_tb.v*** 
 - ***fir.v*** 
 - ***bram11.v*** 
@@ -42,7 +42,7 @@ Design Spec:
   - Data Num: AXI-Lite
   - ap_start: AXI-Lite
   - ap_done: AXI-Lite
-- ==Using one Multiplier and one Adder==
+- Using one Multiplier and one Adder
   
 <br>
 
